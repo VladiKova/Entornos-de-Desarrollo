@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.utilidades.S2Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in com.utilidades.S2Test
+testMesDelAnio  Time elapsed: 0.022 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: El mes 12 es diciembre ==> expected: <valor incorrecto> but was: <diciembre>
+	at com.utilidades.S2Test.testMesDelAnio(S2Test.java:58)
+

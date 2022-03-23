@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.utilidades.S1Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.024 s <<< FAILURE! - in com.utilidades.S1Test
+testEntreCeroYDiez  Time elapsed: 0.021 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (4 failures)
+	org.opentest4j.AssertionFailedError: Numero negativo-> false ==> expected: <false> but was: <true>
+	org.opentest4j.AssertionFailedError: Numero cero-> false (Intervalo abierto) ==> expected: <false> but was: <true>
+	org.opentest4j.AssertionFailedError: Numero 10-> false (Intervalo abierto) ==> expected: <false> but was: <true>
+	org.opentest4j.AssertionFailedError: Numero mayor que 10-> false ==> expected: <false> but was: <true>
+	at com.utilidades.S1Test.testEntreCeroYDiez(S1Test.java:32)
+
